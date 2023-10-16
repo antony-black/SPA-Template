@@ -10,7 +10,8 @@ export class App {
   }
 
   public run() {
-    Controller.runPage();
+    const controller = new Controller();
+    controller.runPage();
   }
 }
 
