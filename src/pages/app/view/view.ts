@@ -1,6 +1,6 @@
-import { AbstractPage } from "../../core/abstractClasses/AbstractPage";
-import { PageId } from "../../core/enums/pageId";
-import { Header } from "../../core/components/Header";
+import { AbstractPage } from "../../../core/abstractClasses/AbstractPage";
+import { PageId } from "../../../core/enums/pageId";
+import { Header } from "../../../core/components/Header";
 
 export class View {
   public header: Header;
